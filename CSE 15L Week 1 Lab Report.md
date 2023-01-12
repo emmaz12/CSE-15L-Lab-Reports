@@ -10,6 +10,9 @@ During the week 1 lab of CSE 15L, we worked on downloading VSCode, logging into 
 
 First, I went to the site where the link to download VSCode is located ([Link]( https://code.visualstudio.com/)). After dowloading and installing the app, I opened it and the screen looked like the image below:
 
-![Image](http://url/a.png)
----
+![Image](cse15l-lab-reports/VSCode.png)
 
+Now that VSCode was downloaded, I moved onto logging into the remote server.
+
+hi
+---
