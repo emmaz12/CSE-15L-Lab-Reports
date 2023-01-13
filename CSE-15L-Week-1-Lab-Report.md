@@ -13,3 +13,6 @@ Now that VSCode was downloaded, I moved onto logging into the remote server.
 
 Remotely Connecting
 ---
+In order to connect remotely to the UCSD servers, I first determined my unique account username for this course through logging into this link ([Link] https://sdacs.ucsd.edu/~icc/index.php) as shown below:
+
+![Image] ()
