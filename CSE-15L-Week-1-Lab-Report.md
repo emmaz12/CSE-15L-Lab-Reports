@@ -21,6 +21,15 @@ Using the account username, I then changed my password for that course specific 
 
 ![Image](PasswordChange.png)
 
-After completing these steps, I then went to the terminal within VSCode and used the following command to log into my remote server:
+After completing these steps, I then went to the terminal within VSCode and used the following command to log into my remote server and the following screen appeared. However, since I had previously logged in to test my account password, the screen shown below is not the same as when I logged in for the first time.
+
+![Image](loggingin.png)
+
+Thus, I was able to successfully log into my remote server using my CSE 15L account username.
+
+Running Some Commands
+---
+
+
 
 
