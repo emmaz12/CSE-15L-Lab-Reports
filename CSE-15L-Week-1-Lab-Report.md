@@ -15,4 +15,12 @@ Remotely Connecting
 ---
 In order to connect remotely to the UCSD servers, I first determined my unique account username for this course through logging into this link ([Link] https://sdacs.ucsd.edu/~icc/index.php) as shown below:
 
-![Image] ()
+![Image](Login.png)
+
+Using the account username, I then changed my password for that course specific account using the Global Password Change Request:
+
+![Image](PasswordChange.png)
+
+After completing these steps, I then went to the terminal within VSCode and used the following command to log into my remote server:
+
+
