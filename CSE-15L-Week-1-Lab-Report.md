@@ -35,3 +35,14 @@ Mainly using the commands listed in the lab description, I ran some commands thr
  
 As seen in the image, the first command I ran was to list all the files in long format including hidden files as well as sort them from last modified date in descending order. The second command was to return to the root directory, then print the working directory. The fourth command was to access the directory of another group member through their CSE15L username. However, as expected, I did not have permission to do so. Lastly, I opened the file titled "hello.txt" and the output was a string with the contents of the file.
 
+Conclusion
+---
+Overall, through the Week 1 lab, I was able to successfully complete:
+
+* Downloading VSCode
+* Logging into a remote server
+* Running comands within the remote server
+
+where the steps to do so are shown above and in the images. 
+
+
