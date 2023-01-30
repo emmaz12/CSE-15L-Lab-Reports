@@ -64,6 +64,7 @@ class StringServer {
 Notice how numerous methods and class constructors are called which come from a public class **Server.java** which we used in Week 2 as well. 
 
 **Running the Web Server**
+
 After compiling the server using `javac StringServer.java` as well as running the server using `java StringServer 2354`, the following commands were used to change the URL:
 
 ![Image](add1.png)
