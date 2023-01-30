@@ -79,4 +79,7 @@ Another example is shown below:
 
 In this example, a very similar situation is also happening. The arraylist currently holds ["cse15l"]. However, once we change the url to `add-message?s=week3`, this prompts the handleRequest method to run again while passing in this URL as its parameter. Then, this method will split the query into the following array: [s,week3]. By taking the last element in this array, we can add it to the arraylist from before. As such, the arraylist then becomes ["cse15l, week3]. Running the for loop again causes the string object, result, to change each loop. The first loop, result goes from "" --> "cse15l \n". The second loop, result goes from "cse15l \n" --> "cse15l\nweek3\n" where the "\n" represents a new line indentation so the two strings show up on seperate lines. As such, the web server shows the two messages in seperate lines. 
 
+Part 2: Debugging Using JUnit
+---
+
 
