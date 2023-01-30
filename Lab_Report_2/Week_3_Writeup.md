@@ -66,7 +66,7 @@ Notice how numerous methods and class constructors are called which come from a 
 **Running the Web Server**
 After compiling the server using `javac StringServer.java` as well as running the server using `java StringServer 2354`, the following commands were used to change the URL:
 
-[!Image](add1.png)
+![Image](add1.png)
 
 In this image, the URL is seen to be changed to `/add-message?s=cse15l`. As seen in the image, the string "cse15l" was printed on the screen. This happens since the code in StringServer.java above calls the Handler class which in turn calls the public method handleRequest where the argument is the URL of the server. handleRequest's class initializes an arraylist which is where all the strings that are being added is stored. By having the proper format for adding a string, the URL handler then splits the query by "=" into an array. Thus, the actual string section is stored in the 1st index of the array. As such, the new string is added into the arraylist object as the last element. I also initialized a string object that will eventually be returned to hold the final string that will be printed onto the web server. This string called "result" has every element in the arraylist being added to it through a for loop along with a new line element so each string is printed on a new line.
 
