@@ -72,3 +72,11 @@ After compiling the server using `javac StringServer.java` as well as running th
 In this image, the URL is seen to be changed to `/add-message?s=cse15l`. As seen in the image, the string "cse15l" was printed on the screen. This happens since the code in StringServer.java above calls the Handler class which in turn calls the public method handleRequest where the argument is the URL of the server. handleRequest's class initializes an arraylist which is where all the strings that are being added is stored. By having the proper format for adding a string, the URL handler then splits the query by "=" into an array. Thus, the actual string section is stored in the 1st index of the array. As such, the new string is added into the arraylist object as the last element. I also initialized a string object that will eventually be returned to hold the final string that will be printed onto the web server. This string called "result" has every element in the arraylist being added to it through a for loop along with a new line element so each string is printed on a new line.
 
 In the case of the image above, arraylist is originally empty. When the URL is changed to `/add-message?s=cse15l`, we split the query into a list split by "=". Thus, the array becomes [s,cse15l]. Taking the last element, the arraylist adds the string "cse15l" as its first element. Once the for loop runs, the string result becomes "cse15l \n" which is returned to print on the server.
+
+Another example is shown below:
+
+![Image](add2.png)
+
+In this example, a very similar situation is also happening. The arraylist currently holds ["cse15l"]. However, once we change the url to `add-message?s=week3`, this prompts the handleRequest method to run again while passing in this URL as its parameter. Then, this method will split the query into the following array: [s,week3]. By taking the last element in this array, we can add it to the arraylist from before. As such, the arraylist then becomes ["cse15l, week3]. Running the for loop again causes the string object, result, to change each loop. The first loop, result goes from "" --> "cse15l \n". The second loop, result goes from "cse15l \n" --> "cse15l\nweek3\n" where the "\n" represents a new line indentation so the two strings show up on seperate lines. As such, the web server shows the two messages in seperate lines. 
+
+
