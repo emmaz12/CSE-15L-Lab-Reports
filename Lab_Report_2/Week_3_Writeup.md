@@ -12,7 +12,8 @@ In this part of the lab, I worked on creating a web server that prints out messa
 
 If the format is correct, the string will be added and printed within the web server. In order to implement this, I create a file called **StringServer.java** with the following code:
 
-`import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
@@ -44,9 +45,9 @@ class HandlerOne implements URLHandler {
             return result + "cannot add new string; must have format: /add-message?s=<string>";
         }
     }
-}`
+}
 
-`class StringServer {
+class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
@@ -57,6 +58,7 @@ class HandlerOne implements URLHandler {
 
         Server.start(port, new Handler());
     }
-}`
+}
+```
 
 Notice how numerous methods and class constructors are called which come from a public class **Server.java** which we used in Week 2 as well. 
