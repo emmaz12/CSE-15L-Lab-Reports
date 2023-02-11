@@ -31,7 +31,9 @@ written_2/travel_guides/berlitz2
 As seen in the code block above, the command is searching within the written_2 directory and looking for all paths that don't contain the string ".txt" within them. As such, the above directory paths are returned. This would be useful to see what the directories within written_2 are without using temporary files etc. 
 
 **Example 2**
+
 Input: 
+
 `Emmas-Macbook-Pro-14:skill-demo1-data emmaz$ find written_2 -not -name "*a*"`
 
 Output:
@@ -134,7 +136,9 @@ Part 2: -type f option
  When using this option, only the elements of type f would be returned. The type f is a file. Thus, only files will be returned and not directories.
  
 **Example 1**
+
 Input: 
+
 `Emmas-Macbook-Pro-14:skill-demo1-data emmaz$ find written_2/non-fiction/OUP/Abernathy/ -type f`
 
 Output:
@@ -153,7 +157,9 @@ written_2/non-fiction/OUP/Abernathy/ch14.txt
 In this example, the -type f command is used to find only files within the path of written_2/non-fiction/OUP/Abernathy. Since the type is for files, only the files in this directory are returned as the output. This would be useful if you only want to see the files within a specified path.
 
 **Example 2**
+
 Input: 
+
 `Emmas-Macbook-Pro-14:skill-demo1-data emmaz$ find written_2/non-fiction -type f`
 
 Output:
