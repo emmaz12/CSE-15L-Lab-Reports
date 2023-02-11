@@ -2,7 +2,7 @@ CSE 15L Week 5 Lab Report
 ---
 During the last two weeks, we worked on learning and using different bash commands such as find, grep, less etc. Using these commands, we applied them during the skill demo.
 
-Part 1: -not option
+Part 1: not option
  ---
 Using this option, the find command searches for file names that do not have the specified string within them. The two examples below demonstrate using find within the written_2 directory of the skill-demo1-data directory:
 
@@ -131,7 +131,7 @@ In this example, the output is all the paths within written_2 that don't have th
 The source I used to learn about the -not option is the following [Link](https://math2001.github.io/article/bashs-find-command/)
 
 
-Part 2: -type f option
+Part 2: type f option
  ---
  When using this option, only the elements of type f would be returned. The type f is a file. Thus, only files will be returned and not directories.
  
