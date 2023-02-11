@@ -7,7 +7,9 @@ Part 1: -not option
 Using this option, the find command searches for file names that do not have the specified string within them. The two examples below demonstrate using find within the written_2 directory of the skill-demo1-data directory:
 
 **Example 1**
+
 Input:
+
 `Emmas-Macbook-Pro-14:skill-demo1-data emmaz$ find written_2 -not -name "*.txt"`
 
 Output:
