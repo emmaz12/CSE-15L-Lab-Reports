@@ -213,13 +213,13 @@ written_2/non-fiction/OUP/Castro/chO.txt
 ```
 In this example, a similar thing is happening in that the -type f option is being used to display all the files within a path. However, in this directory it is clear that the path specified is much more general and the command searches recursively to find all the files within written_2/non-fiction and its subdirectories. This is useful if you want to find all the files within a larger directory.
 
-Part 3: size option
----
-This option searches for files in a directory and its subdirectories based on the file size. 
-
 **Source**:
 
 The source I used for this example was the following link: [Link](https://ss64.com/bash/find.html)
+
+Part 3: size option
+---
+This option searches for files in a directory and its subdirectories based on the file size. 
 
 **Example 1**
 
