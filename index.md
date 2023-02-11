@@ -4,8 +4,7 @@ CSE 15L Lab Reports
 
 [Week 3](https://emmaz12.github.io/CSE-15L-Lab-Reports/Lab_Report_2/Week_3_Writeup.html)
 
-[Week 5](https://emmaz12.github.io/CSE-15L-Lab-Reports/Lab_Report_2/Week_3_Writeup.html)
-
+[Week 5](https://emmaz12.github.io/CSE-15L-Lab-Reports/Lab_Report_3/Week_5_Writeup.html)
 
 
 
