@@ -127,7 +127,8 @@ written_2/travel_guides/berlitz2/Beijing-WhereToGo.txt
 
 In this example, the output is all the paths within written_2 that don't have the letter "a" within the last location of the path AKA the section after the last "/". However, this is case-sensitive and the letter "A" would still be returned as a valid path. Having this is useful perhaps if you want look for a file through elimination and the file you're looking for doesn't have an "a" in it for instance. Of course, the letter "a" could be replaced by a more specific string for a more specific search. In the case of written_2, there are a lot of files and I didn't want my output to be too long to paste into the report.
 
-**Source**
+**Source:**
+
 The source I used to learn about the -not option is the following [Link](https://math2001.github.io/article/bashs-find-command/)
 
 
@@ -216,9 +217,14 @@ Part 3: size option
 ---
 This option searches for files in a directory and its subdirectories based on the file size. 
 
+**Source**:
+
+The source I used for this example was the following link: [Link](https://ss64.com/bash/find.html)
+
 **Example 1**
 
 Input: 
+
 `
 Emmas-Macbook-Pro-14:written_2 emmaz$ find . -size +100k
 `
@@ -241,6 +247,7 @@ In this example, all the files that are in the currrent directory of written_2 o
 **Example 2**
 
 Input: 
+
 `
 Emmas-Macbook-Pro-14:written_2 emmaz$ find . -name "*.txt" -size -1k
 `
@@ -253,7 +260,8 @@ Output:
 
 In this example, we used the find -name and -size command together to search for .txt files that are less than 1 kilobyte in size. This is simliar to the previous example, however, we see that the -size command works both for files less than or greater than the specified size. This could be useful if you are searching for the smallest file that is within a directory. 
 
-**Source**
+**Source:**
+
 The source I used to find this command was to ask ChatGPT about some interesting options with the find command. One of them was the size option. The link to ChatGPT is this [Link](https://chat.openai.com/chat)
 
 Part 4: Depth option
@@ -263,6 +271,7 @@ This option allows the find method to control how deep the command will search w
 **Example 1**
 
 Input: 
+
 `
 Emmas-Macbook-Pro-14:written_2 emmaz$ find . -maxdepth 2
 `
@@ -282,6 +291,7 @@ In this example, we asked the find method to find all files and directories that
 **Example 2**
 
 Input: 
+
 `
 Emmas-Macbook-Pro-14:written_2 emmaz$ find . -name "*History*" -mindepth 3
 `
@@ -338,7 +348,8 @@ Output:
 
 In this example, I used the -name method to find only files with the word History within them. In addition, I used the mindepth option to specify only files that are at least within berlitz1/2 and OUP. Since only files with History are specifed, no files from the OUP directory were returned. This could be useful to use alongside other options when using the find command. If you wanted to find all the files after a certain directory, the mindepth option would be useful. 
 
-**Source**
+**Source:**
+
 The source I used for this option was also ChatGTP. The link is provided above as the source for part 3.
 
 Conclusion
