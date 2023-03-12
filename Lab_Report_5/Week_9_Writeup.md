@@ -57,11 +57,11 @@ Step 6: Run Tests, Show they Fail.
 ---
 In this step, we will compile and run the test file to demonstrate they failed. This is done in the bash script as seen in the image below:
 
-![Image (fail.png)
+![Image](fail.png)
 
 As seen in the image, we first compile all the `.java` files in the directory then run the test file. The result of this is shown in the following image:
 
-![Image (failresult.png)
+![Image](failresult.png)
 
 As seen, when we run the bash script with this new edit, the tester file has a failure that we need to fix.
 
